@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding:0;
+    background-color:bisque;
+}
+
+header, footer{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    background-color: bisque;
+}
+section{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+section div{
+    flex-basis: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+footer{
+    margin-top: 20px;
+}
