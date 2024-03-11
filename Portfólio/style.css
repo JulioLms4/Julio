@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Courier, monospace;
+    margin: 0;
+    padding:0;
+    background-color:white;
+}
+
+header h2{
+    text-align: left;
+}
+ header h1{
+    text-align: center;
+    background-image: url(Imagem/barça.jpg);
+    padding: 200px;
+    margin: 60px;
+    color: white;
+ }
+
+ header h3{
+    text-align: center;
+    color: red
+ }
+ section div{
+    flex-basis: 30%;
+    margin: 20px;
+    text-align: center;
+ }
+
+ section img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+section{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
