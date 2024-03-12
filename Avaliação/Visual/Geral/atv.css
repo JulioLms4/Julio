@@ -1,0 +1,80 @@
+#A1 {
+  text-align: center;
+  background-color: red ;
+  width: 60px;
+
+
+}
+#A2 {
+  text-align: center;
+  background-color: orange ;
+  width: 60px;
+  margin: 20px;
+  margin-left: 20vmin;
+
+}
+
+#A3 {
+  text-align: center;
+  background-color: yellow ;
+  width: 60px;
+  margin:20px;
+  margin-left: 40vmin;
+
+}
+
+#A4 {
+  text-align: center;
+  background-color: green ;
+  width: 60px;
+  margin:20px;
+  margin-left: 60vmin;
+}
+
+#A5 {
+  text-align: center;
+  background-color: rgb(0, 110, 255);
+  width: 60px;
+  margin: 20px;
+  margin-left: 80vmin;
+}
+
+#A6 {
+  text-align: center;
+  background-color: blue ;
+  width: 60px;
+  margin: 20px;
+  margin-left: 100vmin;
+}
+
+#A7 {
+  text-align: center;
+  background-color: violet ;
+  width: 60px;
+  margin: 20px;
+  margin-left: 120vmin;
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    text-align: center;
+    background-color:rgb(64, 27, 165);
+    padding: 10px 0;
+    background-color: rgb(156, 52, 52);
+    color: white;
+}
+#S1 div{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+#S2{
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+
+}
