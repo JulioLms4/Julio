@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="java2.js"></script>
+<title>Folha de Pagamento</title>
+</head>
+<body>
+<h2>Calculadora de Folha de Pagamento</h2>
+<form>
+    <label for="nomeFuncionario">Nome do Funcionário:</label><br>
+    <input type="text" id="nomeFuncionario" name="nomeFuncionario"><br>
+    <label for="salario">Salário:</label><br>
+    <input type="number" id="salario" name="salario"><br><br>
+    <button type="button" onclick="calcular()">Calcular</button>
+</form>
+<br>
+<div id="resultado">
+    <p id="resultadoNome"></p>
+    <p id="resultadoSalario"></p>
+    <p id="resultadoINSS"></p>
+    <p id="resultadoLiquido"></p>
+</div>
+</body>
+</html>

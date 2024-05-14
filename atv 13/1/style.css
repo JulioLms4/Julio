@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#resultados {
+    margin-top: 20px;
+}
+.resultado {
+    margin-bottom: 10px;
+}
